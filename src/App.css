@@ -1,0 +1,28 @@
+body {
+  background-color: beige;
+  /* Establece el fondo en beige */
+  margin: 0;
+  /* Elimina el margen por defecto */
+  padding: 20px;
+  /* Espaciado alrededor del contenido */
+  height: 100vh;
+  /* Asegura que el fondo cubra toda la altura de la ventana */
+}
+.contenedor {
+  display: flex;
+  /* Habilita flexbox */
+  justify-content: space-around;
+  /* Opcional: Espaciado entre elementos */
+  align-items: center;
+  /* Alinea verticalmente los elementos */
+  padding: 20px;
+  /* Espaciado interno */
+}
+
+.contenedor div {
+  margin: 10px;
+  /* Opcional: Espaciado entre los componentes */
+  padding: 10px;
+  border: 1px solid black;
+  /* Solo para visualizar los componentes */
+}
